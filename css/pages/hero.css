@@ -31,17 +31,6 @@
     font-size: 4rem;
     line-height: 1.1;
   }
-
-  /* .hero-bg {
-    padding: 0px;
-  }
-  .hero {
-    grid-template-columns: 1fr;
-    padding: 70px;
-  }
-  .hero-img {
-    display: none;
-  } */
 }
 
 @media (max-width: 780px) {
@@ -63,9 +52,17 @@
 }
 
 @media (max-width: 600px) {
-
-.hero-bg{
-  margin-top: 75px;
+  .hero-bg {
+    margin-top: 75px;
+  }
 }
 
+@media (max-width: 420px) {
+  .hero {
+    padding: 30px;
+  }
+  .hero-desc h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
