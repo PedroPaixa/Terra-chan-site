@@ -1,0 +1,14 @@
+/* Global */
+@import "./global.css";
+
+/* Componentes */
+@import "./components/buttons.css";
+@import "./components/perfilModal.css";
+
+/* Header & Footer */
+@import "./components/header.css";
+@import "./components/footer.css";
+
+/* Home */
+@import "./pages/hero.css";
+@import "./pages/functions.css";
