@@ -39,14 +39,14 @@
   }
   .hero {
     grid-template-columns: 1fr;
-    padding: 30px;
+    padding: 80px 40px;
   }
   .hero-img {
     display: none;
   }
 
   .hero-desc h1 {
-    font-size: 4.5rem;
+    font-size: 3rem;
     line-height: 1.1;
   }
 }
@@ -54,15 +54,5 @@
 @media (max-width: 600px) {
   .hero-bg {
     margin-top: 75px;
-  }
-}
-
-@media (max-width: 420px) {
-  .hero {
-    padding: 30px;
-  }
-  .hero-desc h1 {
-    font-size: 3rem;
-    line-height: 1;
   }
 }
